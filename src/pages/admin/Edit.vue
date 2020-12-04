@@ -6,25 +6,17 @@
 
 <script>
 import Form from './Form'
-import Admin from '@/models/Admin'
-import Role from '@/models/Role'
-
+import store from '@/store'
 export default {
   name: 'Edit',
   beforeRouteEnter: async (to, from, next) => {
-    const respDetail = await Admin.find(to.params['id'], {
-      query: {
-        'include': 'roles'
-      }
-    })
-    const respRole = await Role.all({
-      query: {
-        per_page: 0
-      }
-    })
+    console.log(store.getters.profile.data.id)
+    // const respDetail = await Admin.find(store.getters.profile.data.id)
+    const respDetail = {
+      name: 'duy_dev',
+      login_id: 'superadmin'
+    }
     to.meta['detail'] = respDetail
-    to.meta['role'] = respRole.data
-
     return next()
   },
   components: {

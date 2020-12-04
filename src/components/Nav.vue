@@ -4,8 +4,8 @@
       <router-link
           tag="a"
           class="navbar-brand"
-          :to="{name: 'home'}">
-        <img src="../assets/images/dummy_image.png" style="max-width: 120px;">
+          :to="{name: 'cms.admin.edit'}">
+        <img src="../assets/images/logo_tnguyen.png" style="max-width: 180px;">
       </router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,6 @@
         <ul class="navbar-nav text-nowrap ml-auto">
           <li v-for="item of navigations" :key="item.id" class="nav-item">
             <router-link
-                v-if="hasPermission(item)"
                 :active-class="'active'"
                 :exact="item.exact"
                 :to="{name: item.routeName}"
@@ -47,9 +46,7 @@
 
 <script>
 import {navigations} from '@/config'
-import {PERMISSIONS} from '@/enum/permissions.enum'
 import store from '@/store'
-import {isEmpty} from 'lodash-es'
 import {
   SettingsIcon,
   LogOutIcon
@@ -62,9 +59,6 @@ export default {
     LogOutIcon
   },
   computed: {
-    permissions () {
-      return store.getters.currentPermissions || []
-    },
     userName () {
       return store.getters.profile ? store.getters.profile.data.name : ''
     }
@@ -75,17 +69,6 @@ export default {
     }
   },
   methods: {
-    hasPermission (item) {
-      const currentRoute = this.$router.resolve({name: item.routeName}).route
-      if (currentRoute.meta.permissions.includes(PERMISSIONS.ALL)) {
-        return true
-      }
-      if (!isEmpty(currentRoute.meta.permissions)) {
-        return !!this.permissions.find(permission => currentRoute.meta.permissions.includes(permission.name))
-      }
-      return false
-    },
-
     logoutEvent () {
       this.$emit('logout-event')
     }

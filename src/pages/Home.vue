@@ -118,9 +118,7 @@
 </template>
 
 <script>
-import Dashboard from '@/models/Dashboard'
 import store from '@/store'
-import * as types from '@/store/mutation-types'
 import Breadcrumb from '@/components/Breadcrumb'
 import { RefreshCwIcon, SearchIcon } from 'vue-feather-icons'
 import ChartLine from '@/components/ChartLine'
@@ -246,10 +244,6 @@ export default {
 
   async beforeRouteEnter (to, from, next) {
     // Get Dashboards
-    const resp = await Dashboard.all()
-
-    // const resp = dashboard[0]
-    store.commit(types.SET_CHART, resp.data)
     return next()
   },
 
@@ -260,13 +254,6 @@ export default {
     },
 
     async search () {
-      const resp = await Dashboard.all({
-        query: {
-          ...this.filter
-        }
-      })
-
-      store.commit(types.SET_CHART, resp.data)
     },
 
     reset () {

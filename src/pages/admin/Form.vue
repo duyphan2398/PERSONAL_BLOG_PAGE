@@ -6,15 +6,6 @@
                         ref="observer"
                         @submit.prevent="validateBeforeSubmit()">
       <div class="row">
-        <!--Admin roles-->
-        <InputCategory v-model="form.role_id"
-                       class="col-md-6 col-xs-12 mb-3"
-                       rules="required"
-                       vid="role_id"
-                       label="field_admin_role_display_name"
-                       :options="optionsRole"
-                       :required="true"/>
-
         <!--Admin name-->
         <InputText v-model="form.name"
                    class="col-md-6 col-xs-12 mb-3"
@@ -29,10 +20,14 @@
                    rules="required|alpha_dot|min:4|max:100"
                    vid="login_id"
                    label="field_admin_login_id"
-                   :disabledInput="$route.name === 'admin.edit'"
                    :required="true"/>
 
-        <template v-if="$route.name === 'admin.edit'">
+        <InputSwitch v-model="changePassword"
+                     class="col-md-12 col-xs-12 mb-3"
+                     @change="changePasswordAction"
+                     label="field_admin_change_password"/>
+
+        <template v-if="changePassword">
           <!--Login password-->
           <InputText v-model="form.password"
                      class="col-md-6 col-xs-12 mb-3"
@@ -48,30 +43,6 @@
                      vid="password_confirmation"
                      label="field_admin_login_password_confirmation"/>
         </template>
-
-        <template v-else>
-          <!--Login password ( required )-->
-          <InputText v-model="form.password"
-                     class="col-md-6 col-xs-12 mb-3"
-                     rules="required|half_alphabet|min:6|max:100"
-                     type="password"
-                     vid="password"
-                     label="field_admin_login_password"
-                     :required="true"/>
-
-          <!--Login password confirm-->
-          <InputText v-model="form.password_confirmation"
-                     class="col-md-6 col-xs-12 mb-3"
-                     rules="confirmed:password"
-                     type="password"
-                     vid="password_confirmation"
-                     label="field_admin_login_password_confirmation"/>
-        </template>
-
-        <!--Is active-->
-        <InputSwitch v-model="form.is_active"
-                     class="col-md-6 col-xs-12 mb-3"
-                     label="text_active"/>
       </div>
 
       <!-- Action Section Submit & Cancel -->
@@ -84,11 +55,10 @@
         </button>
 
         <button type="submit"
-                v-if="$route.params.id ? hasPermissionAction(PERMISSIONS.UPDATE_ADMIN) : hasPermissionAction(PERMISSIONS.CREATE_ADMIN)"
                 class="btn btn-success float-right mr-1"
                 :class="{'btn-loading disabled': isSubmit}">
           <a-icon type="save" class="mr-1"/>
-          {{this.$route.name === 'admin.edit' ? $t('btn_update') : $t('btn_save')}}
+          {{this.$route.name === 'cms.admin.edit' ? $t('btn_update') : $t('btn_save')}}
         </button>
       </div>
     </ValidationObserver>
@@ -116,16 +86,13 @@ export default {
 
   data () {
     return {
-      list_role: [],
-      list_companies: [],
       detail: {},
+      changePassword: false,
       form: {
-        role_id: '',
         name: '',
         login_id: '',
         password: '',
-        password_confirmation: '',
-        is_active: true
+        password_confirmation: ''
       },
       isSubmit: false
     }
@@ -134,12 +101,10 @@ export default {
   mixins: [Form],
 
   created () {
-    this.list_role = this.$route.meta['role']
     this.detail = {...this.$route.meta['detail']}
 
-    if ('id' in this.$route.params && this.$route.name === 'admin.edit') {
+    if (this.$route.name === 'cms.admin.edit') {
       this.form = Object.assign(this.form, {
-        role_id: this.detail.roles ? this.detail.roles.id : '',
         ...this.detail
       })
     }
@@ -148,18 +113,14 @@ export default {
   computed: {
     currentUser () {
       return store.getters.profile.data
-    },
-
-    optionsRole () {
-      return {
-        data: this.list_role,
-        id: 'id',
-        key: 'display_name'
-      }
     }
   },
 
   methods: {
+    changePasswordAction () {
+      this.password = this.password_confirmation = ''
+    },
+
     async validateBeforeSubmit () {
       const isValid = await this.$refs.observer.validate()
 
@@ -172,7 +133,7 @@ export default {
       this.isSubmit = true
       let data = this.form
 
-      if (this.$route.name === 'admin.edit') {
+      if (this.$route.name === 'cms.admin.edit') {
         this.updateAdmin(data)
       } else {
         this.createAdmin(data)
@@ -191,22 +152,6 @@ export default {
       } catch (err) {
         this.checkErrorsAPI(err)
         this.isSubmit = false
-      }
-    },
-
-    async createAdmin (data) {
-      try {
-        const resp = await Admin.create(data)
-
-        if (Object.keys(resp).length) {
-          await this.onSuccess(this.$t('message_success'), this.$t('create_message_successfully'))
-
-          this.$router.push({name: 'admin.index'}).catch(_ => {})
-        }
-      } catch (err) {
-        this.checkErrorsAPI(err)
-        this.isSubmit = false
-        throw err
       }
     },
 

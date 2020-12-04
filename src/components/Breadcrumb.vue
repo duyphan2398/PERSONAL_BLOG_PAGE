@@ -13,7 +13,6 @@ export default {
   computed: {
     breadcrumbs () {
       return [
-        { title: 'dashboard', name: 'home' },
         ...this.$route.meta.breadcrumbs
       ]
     }

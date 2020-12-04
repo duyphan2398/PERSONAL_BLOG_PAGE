@@ -2,7 +2,7 @@
   <div class="flex-fill d-flex flex-column justify-content-center" v-if="layout === 'auth'">
     <div class="container-tight py-6">
       <div class="text-center mb-4">
-        <img src="../assets/images/dummy_image.png" style="max-width: 120px;">
+        <img src="../assets/images/logo_tnguyen.png" style="max-width: 320px;">
       </div>
       <ValidationObserver v-slot="{ handleSubmit }">
         <form @submit.prevent="handleSubmit(login)" class="card card-md" novalidate>
@@ -79,8 +79,8 @@ export default {
       hidePassword: true,
       isSubmit: false,
       form: {
-        login_id: '',
-        password: ''
+        login_id: 'superadmin',
+        password: '123123123'
       },
       error: null
     }
@@ -100,23 +100,12 @@ export default {
       try {
         const resp = await Admin.login(this.form)
         store.commit(types.SET_TOKEN, resp.access_token)
-        const profile = await Admin.profile({
-          query: {
-            'include': 'roles,permissions'
-          }
-        })
+        const profile = await Admin.profile()
         store.commit(types.SET_PROFILE, { profile })
-        store.commit(types.SET_PERMISSION, profile.data.permissions)
-        await this.$router.push({ name: 'home' })
+        console.log(profile.data.id)
+        await this.$router.push({ name: 'cms.admin.edit', params: { id: profile.data.id } })
       } catch (error) {
         this.isSubmit = false
-
-        if (error.response) {
-          const {response: {data}} = error
-          this.error = data.message
-        } else {
-          return Promise.reject(error)
-        }
       }
     }
   }

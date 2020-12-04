@@ -10,30 +10,16 @@ export default new Vuex.Store({
     return {
       layout: 'default',
       profile: null,
-      currentPermissions: [],
       token: Cookie.get('token'),
-      loadingOverlay: false,
-      prefectures: null,
-      dataChart: {},
-      movies: []
+      loadingOverlay: false
     }
   },
   getters: {
     profile: state => state.profile,
     hasToken: state => state.token,
-    layout: state => state.layout || 'default',
-    prefectures: state => state.prefectures,
-    dataChart: state => state.dataChart,
-    currentPermissions: state => state.currentPermissions,
-    movies: state => state.movies
+    layout: state => state.layout || 'default'
   },
   mutations: {
-    [types.SET_PREFECTURES] (state, payload) {
-      state.prefectures = payload
-    },
-    [types.SET_CHART] (state, payload) {
-      state.dataChart = payload
-    },
     [types.START_LOADING] (state) {
       state.loadingOverlay = true
       document.getElementById('loading').style.opacity = 'block'
@@ -45,23 +31,17 @@ export default new Vuex.Store({
     [types.SET_LAYOUT] (state, { layout }) {
       state.layout = layout
     },
-    [types.SET_PROFILE] (state, { profile }) {
-      state.profile = profile
-    },
     [types.SET_TOKEN] (state, token) {
       state.token = token
       Cookie.set('token', token)
     },
-    [types.SET_PERMISSION] (state, permissions) {
-      state.currentPermissions = permissions
+    [types.SET_PROFILE] (state, { profile }) {
+      state.profile = profile
     },
     [types.LOG_OUT] (state) {
       state.token = null
       state.profile = null
       Cookie.remove('token')
-    },
-    [types.SET_MOVIES] (state, movies) {
-      state.movies = [...movies]
     }
   }
 })

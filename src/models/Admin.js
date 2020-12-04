@@ -9,10 +9,6 @@ export default class Admin extends Model {
     return (new this()).request({ method: 'GET', url: `auth/profile`, ...configs, isStatic: true })
   }
 
-  static async delete_admin (id) {
-    return (new this()).request({ method: 'DELETE', url: `admins/${id}`, isStatic: true })
-  }
-
   static async login ({ login_id, password }) {
     let data = { login_id, password }
     return (new this()).request({ method: 'POST', url: 'auth/login', data, isStatic: true })

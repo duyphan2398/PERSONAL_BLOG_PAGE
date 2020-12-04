@@ -36,11 +36,22 @@ instance.interceptors.response.use(response => response,
       return Promise.reject(error)
     }
 
-    if ([400, 403, 404, 429].includes(status)) {
+    if ([403, 404, 429].includes(status)) {
       router.app.$notification.error(
         {
           message: router.app.$t('message_error'),
           description: router.app.$t(`error_${status}_content`)
+        }
+      )
+
+      return Promise.reject(error)
+    }
+
+    if ([400].includes(status)) {
+      router.app.$notification.error(
+        {
+          message: router.app.$t('message_error'),
+          description: error.response.data.errors ? error.response.data.errors[0].message : router.app.$t(`error_${status}_content`)
         }
       )
 

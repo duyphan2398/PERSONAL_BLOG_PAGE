@@ -31,7 +31,7 @@ export default {
         await Admin.logout()
       } catch (e) {}
       store.commit(types.LOG_OUT)
-      await this.$router.push({ name: 'login' })
+      await this.$router.push({ name: 'cms.login' })
     }
   }
 }
