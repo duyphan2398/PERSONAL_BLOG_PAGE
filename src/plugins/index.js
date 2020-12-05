@@ -11,5 +11,5 @@ import './axios'
 
 import * as moment from 'moment-timezone'
 
-moment.locale('ja')
-moment.tz.setDefault('Japan')
+moment.locale('en')
+moment.tz.setDefault('Asia/HoChiMinh')

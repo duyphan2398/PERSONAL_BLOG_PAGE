@@ -29,7 +29,7 @@
 
 <script>
 import moment from 'moment'
-import locale from 'ant-design-vue/es/date-picker/locale/ja_JP'
+import locale from 'ant-design-vue/es/date-picker/locale/en_US'
 
 export default {
   name: 'InputDateRange',
@@ -48,7 +48,7 @@ export default {
   props: {
     formatDate: {
       type: String,
-      default: 'YYYY-MM-DD'
+      default: 'DD-MM-YYY'
     },
 
     label: {

@@ -85,7 +85,9 @@ export default {
       error: null
     }
   },
-
+  created () {
+    console.log('login')
+  },
   computed: {
     layout () {
       return this.$store.state.layout
@@ -103,7 +105,7 @@ export default {
         const profile = await Admin.profile()
         store.commit(types.SET_PROFILE, { profile })
         console.log(profile.data.id)
-        await this.$router.push({ name: 'cms.admin.edit', params: { id: profile.data.id } })
+        await this.$router.push({ name: 'admin.edit', params: { id: profile.data.id } })
       } catch (error) {
         this.isSubmit = false
       }

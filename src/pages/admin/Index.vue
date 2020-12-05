@@ -186,7 +186,7 @@ export default {
 
     async handleEdit (id) {
       this.$router.push({
-        name: 'cms.admin.edit',
+        name: 'admin.edit',
         params: {
           id: id
         }

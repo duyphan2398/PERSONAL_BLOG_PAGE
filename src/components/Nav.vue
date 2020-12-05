@@ -4,7 +4,7 @@
       <router-link
           tag="a"
           class="navbar-brand"
-          :to="{name: 'cms.admin.edit'}">
+          :to="{name: 'admin.edit'}">
         <img src="../assets/images/logo_tnguyen.png" style="max-width: 180px;">
       </router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"

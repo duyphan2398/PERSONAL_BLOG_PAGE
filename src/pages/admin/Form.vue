@@ -2,6 +2,7 @@
   <a-card class="card-common">
     <div class="card-status-top bg-warning"></div>
     <!--Form-->
+    {{ form }}
     <ValidationObserver tag="form"
                         ref="observer"
                         @submit.prevent="validateBeforeSubmit()">
@@ -58,7 +59,7 @@
                 class="btn btn-success float-right mr-1"
                 :class="{'btn-loading disabled': isSubmit}">
           <a-icon type="save" class="mr-1"/>
-          {{this.$route.name === 'cms.admin.edit' ? $t('btn_update') : $t('btn_save')}}
+          {{this.$route.name === 'admin.edit' ? $t('btn_update') : $t('btn_save')}}
         </button>
       </div>
     </ValidationObserver>
@@ -103,7 +104,7 @@ export default {
   created () {
     this.detail = {...this.$route.meta['detail']}
 
-    if (this.$route.name === 'cms.admin.edit') {
+    if (this.$route.name === 'admin.edit') {
       this.form = Object.assign(this.form, {
         ...this.detail
       })
@@ -133,7 +134,7 @@ export default {
       this.isSubmit = true
       let data = this.form
 
-      if (this.$route.name === 'cms.admin.edit') {
+      if (this.$route.name === 'admin.edit') {
         this.updateAdmin(data)
       } else {
         this.createAdmin(data)

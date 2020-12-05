@@ -10,7 +10,7 @@
         <p class="empty-subtitle text-muted" v-text="$t(`error_${code}_content`)"/>
 
         <div class="empty-action" v-if="code !== 400 && code !== 401">
-          <router-link :to="{name: 'edit.admin'}"
+          <router-link :to="{name: 'admin.edit'}"
                        class="btn btn-primary">
             <i class="fe fe-chevron-left"/>
 
@@ -18,7 +18,7 @@
           </router-link>
         </div>
         <div class="empty-action" v-else>
-          <router-link :to="{name: 'cms.login'}"
+          <router-link :to="{name: 'login'}"
                        class="btn btn-primary">
             <i class="fe fe-chevron-left"/>
 

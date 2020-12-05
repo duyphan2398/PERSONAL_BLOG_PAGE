@@ -1,8 +1,6 @@
 import Resource from '@/components/Resource'
 import { AuthGuard, LoginGuard, ResolveGuard } from '@/router/guards'
 
-import { PERMISSIONS } from '@/enum/permissions.enum'
-
 export function page (path) {
   return () => import(/* webpackChunkName: "[request]" */ `@/pages/${path}`)
 }
@@ -11,8 +9,8 @@ export const routes = [
   // CMS
   // Login
   {
-    path: '/cms/login',
-    name: 'cms.login',
+    path: '/login/',
+    name: 'login',
     component: page('Login.vue'),
     meta: { layout: 'auth' },
     beforeEnter: ResolveGuard([LoginGuard])
@@ -20,47 +18,44 @@ export const routes = [
 
   // Notice
   {
-    path: '/cms/notice',
+    path: '/post',
     component: Resource,
     children: [
       {
         path: '',
-        name: 'notice.index',
-        component: page('notice/Index.vue'),
+        name: 'post.index',
+        component: page('post/Index.vue'),
         beforeEnter: ResolveGuard([AuthGuard]),
         meta: {
-          title: 'page_notice_list',
-          permissions: [PERMISSIONS.VIEW_NOTICE],
+          title: 'page_post_list',
           breadcrumbs: [
-            { title: 'page_notice_list', name: 'notice.index' }
+            { title: 'page_post_list', name: 'post.index' }
           ]
         }
       },
       {
-        path: '/notice/create',
-        name: 'notice.create',
-        component: page('notice/Create.vue'),
+        path: 'create',
+        name: 'post.create',
+        component: page('post/Create.vue'),
         beforeEnter: ResolveGuard([AuthGuard]),
         meta: {
-          title: 'page_notice_create',
-          permissions: [PERMISSIONS.CREATE_NOTICE],
+          title: 'page_post_create',
           breadcrumbs: [
-            { title: 'page_notice_list', name: 'notice.index' },
-            { title: 'page_notice_create', name: 'notice.create' }
+            { title: 'page_post_list', name: 'post.index' },
+            { title: 'page_post_create', name: 'post.create' }
           ]
         }
       },
       {
-        path: '/notice/:id/edit',
-        name: 'notice.edit',
+        path: ':id/edit',
+        name: 'post.edit',
         component: page('notice/Edit.vue'),
         beforeEnter: ResolveGuard([AuthGuard]),
         meta: {
           title: 'page_notice_edit',
-          permissions: [PERMISSIONS.VIEW_NOTICE],
           breadcrumbs: [
-            { title: 'page_notice_list', name: 'notice.index' },
-            { title: 'page_notice_edit', name: 'notice.edit' }
+            { title: 'page_post_list', name: 'post.index' },
+            { title: 'page_post_edit', name: 'post.edit' }
           ]
         }
       }
@@ -69,18 +64,18 @@ export const routes = [
 
   // Admin (HOME)
   {
-    path: '/cms/',
+    path: '',
     component: Resource,
     children: [
       {
         path: '',
-        name: 'cms.admin.edit',
+        name: 'admin.edit',
         component: page('admin/Edit.vue'),
         beforeEnter: ResolveGuard([AuthGuard]),
         meta: {
           title: 'page_admin_edit',
           breadcrumbs: [
-            { title: 'page_admin_edit', name: 'cms.admin.edit' }
+            { title: 'page_admin_edit', name: 'admin.edit' }
           ]
         }
       }

@@ -15,18 +15,17 @@ export default {
   tooltip_edit: 'edit',
   tooltip_delete: 'delete',
   tooltip_copy: 'copy',
-  select_option_empty: '選択してください',
-  status: 'ステータス',
-  status_movie: 'トップコンテンツ',
+  select_option_empty: 'Please select',
+  status: 'Status',
   pushed: 'Push',
-  active: '有効',
-  inactive: '無効',
-  search_btn: '検索する',
-  search_category: '選択してください',
+  active: 'Active',
+  inactive: 'Inactive',
+  search_btn: 'Search',
+  search_category: 'Category',
   reset: 'リセット',
   please_select_option: '選択してください',
-  start_time: '開始日時',
-  end_time: '終了日時',
+  start_time: 'from',
+  end_time: 'to',
   placeholder_prefecture: '選択してください',
   update_message_successfully: '更新が完了しました。',
   upload_image: 'ファイル選択',
@@ -34,8 +33,7 @@ export default {
   ok: 'ok',
   choose_file: 'Choose file',
   // NAV
-  nav_home: 'ホーム',
-  nav_notice: 'お知らせ管理',
+  nav_post: 'Post',
   nav_admin: 'Admin',
   nav_logout: 'Logout',
 
@@ -49,26 +47,26 @@ export default {
   validate_login_id: 'login id',
   validate_login_password: 'password',
 
-  // NOTICE
+  // Post
   // page title
-  page_notice_list: 'お知らせ一覧',
-  page_notice_create: 'お知らせ登録',
-  page_notice_edit: 'お知らせ編集',
+  page_post_list: 'Post List',
+  page_post_create: 'Post Create',
+  page_post_edit: 'Post Edit',
   // search label
-  label_search_category: 'お知らせカテゴリー',
-  label_search_duration: '公開期間',
-  label_search_title: 'タイトル',
+  label_search_category: 'Category',
+  label_search_duration: 'Duration',
+  label_search_title: 'Title',
   // column title
-  column_notice_thumbnail: '画像',
-  column_notice_duration: '公開期間',
-  column_notice_category: 'お知らせカテゴリー',
-  column_notice_title: 'タイトル',
+  column_post_thumbnail: 'Thumbnail',
+  column_post_duration: 'Duration',
+  column_post_category: 'Category',
+  column_post_title: 'Title',
   // form fields
-  field_notice_status: 'ステータス',
-  field_notice_title: 'タイトル',
-  field_notice_duration: '公開期間',
-  field_notice_text: 'お知らせ内容',
-  field_notice_thumbnail: '画像',
+  field_post_status: 'status',
+  field_post_title: 'Title',
+  field_post_duration: 'Duration',
+  field_post_text: 'Text',
+  field_post_thumbnail: 'Thumbnail',
 
   // ADMIN
   // page title
@@ -93,5 +91,9 @@ export default {
   error_500_content: 'Server error 500',
   error_503_content: 'Please try again 503',
   error_title: 'Something wrong',
-  take_me_home: 'Return to profile'
+  take_me_home: 'Return home ',
+  select_option_active: 'a',
+  select_option_inactive: 'b',
+  select_option_pushed: 'c',
+  select_option_push: 'd'
 }
