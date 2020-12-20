@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab81f324-1e01-467c-8440-2e59ffb6acf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.testing.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.740cc159a17e371e3bd120e64a9db197.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.740cc159a17e371e3bd120e64a9db197.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/dummy_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/fav_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_bug_fixing_oc7a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_joyride_hnno.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_medicine_b1ol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_mobile_application_mr4r.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_posting_photo_v65l.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_printing_invoices_5r4r.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_quitting_time_dm8t.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/illustrations/undraw_work_together_h63l.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/0.2a132e72cdad9a628a6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/0.2a132e72cdad9a628a6a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/1.a192a557b9824cab8d1d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/1.a192a557b9824cab8d1d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/10.f6327223117f720b20c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/10.f6327223117f720b20c7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/11.de7e6cd53092b73f951a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/11.de7e6cd53092b73f951a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/12.32fcb14acb0ca8d8469b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/12.32fcb14acb0ca8d8469b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/13.944854e62c41281dc768.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/13.944854e62c41281dc768.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/14.166801a39d2bad6e709c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/14.166801a39d2bad6e709c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/15.ffe85c85803418bef58c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/15.ffe85c85803418bef58c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/16.ba842401dd4231cf77bb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/16.ba842401dd4231cf77bb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/17.a1acbbbfa9ec01db2639.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/17.a1acbbbfa9ec01db2639.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/18.8facbd5bcd861903e40a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/18.8facbd5bcd861903e40a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/19.1ff40178aeb3126b00fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/19.1ff40178aeb3126b00fa.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/2.46d8541ba80edbc9f7e5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/2.46d8541ba80edbc9f7e5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/20.367bcd1a0d83d10cf128.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/20.367bcd1a0d83d10cf128.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/21.74f5ece4530caf6b5b78.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/21.74f5ece4530caf6b5b78.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/22.4457896ed4e919314369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/22.4457896ed4e919314369.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/23.59a910b5f0af2bc56eb1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/23.59a910b5f0af2bc56eb1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/24.c24fcfe93b447cb964bb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/24.c24fcfe93b447cb964bb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/25.71f0e52ddd040186adf7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/25.71f0e52ddd040186adf7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/26.97a5226181139f450887.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/26.97a5226181139f450887.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/27.7f4923ffba1b122c4c40.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/27.7f4923ffba1b122c4c40.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/28.5757c3fc2d0dee564eca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/28.5757c3fc2d0dee564eca.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/29.88fd4cedd596f36af732.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/29.88fd4cedd596f36af732.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/3.1f01018c74fc13c00346.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/3.1f01018c74fc13c00346.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/30.ec8c7c0d9cbfe10306d1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/30.ec8c7c0d9cbfe10306d1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/31.b9e07eaacc33b2d7551f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/31.b9e07eaacc33b2d7551f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/32.c10c50fa0701d8abf231.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/32.c10c50fa0701d8abf231.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/33.0e24c042227151628a17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/33.0e24c042227151628a17.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/34.7eab55e2ce6e4e80c35a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/34.7eab55e2ce6e4e80c35a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/35.31c0334ce3df36c011ff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/35.31c0334ce3df36c011ff.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/36.546f4e471f3a43201612.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/36.546f4e471f3a43201612.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/37.af51bc329e3acd42e1ff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/37.af51bc329e3acd42e1ff.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/38.1390f63fc0710a10a5f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/38.1390f63fc0710a10a5f3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/39.0a4ec4458063700e3f74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/39.0a4ec4458063700e3f74.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/4.43d7f852a50bc24acb40.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/4.43d7f852a50bc24acb40.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/40.7111f3ee63bf9e45afa2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/40.7111f3ee63bf9e45afa2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/5.f03f6e632ba469c0d52c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/5.f03f6e632ba469c0d52c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/6.e53ad83a7936b720eb4e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/6.e53ad83a7936b720eb4e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/7.4208dffeb027c2ec9afb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/7.4208dffeb027c2ec9afb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/8.d78b83485fed727851c1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/8.d78b83485fed727851c1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/9.4dab955d0e7a856eacad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/9.4dab955d0e7a856eacad.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.5b192ebf231ab846ff7a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.5b192ebf231ab846ff7a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.a359b3d67302c2d56bc1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.a359b3d67302c2d56bc1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.3766a9666becda46ec3f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.3766a9666becda46ec3f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/logo-small-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/logo-small.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/newphoria_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/placeholder-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/demo.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/demo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/demo.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-buttons.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-buttons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-buttons.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-flags.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-flags.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-flags.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-flags.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-payments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-payments.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-payments.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler-payments.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tabler.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/dummy_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/tabler.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/tabler.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/libs/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/libs/selectize/dist/css/selectize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/libs/selectize/dist/js/standalone/selectize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_variable.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Breadcrumb.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChartLine.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Child.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorContent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Resource.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/file/FileList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/file/FileUpload.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/file/ImageUpload.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/file/SelectFile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/file/UploadTask.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputAccountType.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputCategory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputCategoryGender.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputCategoryMulti.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputCategoryMultiAPI.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputCategoryName.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputDatePicker.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputDateRange.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputHtmlEditor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputSwitch.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputText.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/InputTextArea.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/constans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/lazyload-image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/loading-bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/navigations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dummy/dashboard.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dummy/news.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enum/locale.enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enum/movies.enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enum/permissions.enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enum/roles_type.enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/languages/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/languages/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Auth.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/form.mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/global.mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/table.mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/AppTop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Device.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/File.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Movie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MovieGroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Notice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/PushCategory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Role.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/Create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/Edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/Form.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/Search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/appTop/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/appTop/components/MovieList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/appTop/components/TopImageForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/appTop/components/TopMovieList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/device/Create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/device/Edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/device/Form.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/device/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/device/Search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error400.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error403.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error404.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error409.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error429.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error500.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error/Error503.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movie/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movie/components/MovieGroupComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movie/components/MovieList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notice/Create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notice/Edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notice/Form.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notice/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notice/Search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/push/Create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/push/Duplicate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/push/Edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/push/Form.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/push/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/push/Search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/role/Create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/role/Edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/role/Form.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/role/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/role/Search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/antdesign/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/i18n/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/lazyload/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/progress-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/validation/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/guards/AuthGuard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/guards/LoginGuard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/guards/ResolveGuard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/guards/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/mutation-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dummy_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fav_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_bug_fixing_oc7a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_joyride_hnno.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_medicine_b1ol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_mobile_application_mr4r.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_posting_photo_v65l.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_printing_invoices_5r4r.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_quitting_time_dm8t.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/illustrations/undraw_work_together_h63l.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logo-small-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logo-small.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/newphoria_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/placeholder-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/nightwatch.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lsMveDHQtlcPvoMr7GsEgRcK74" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\PERSONAL_BLOG_PAGE\blog" />
+      <recent name="C:\laragon\www\PERSONAL_BLOG_PAGE\blog\src" />
+      <recent name="C:\laragon\www\PERSONAL_BLOG_PAGE\blog\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\PERSONAL_BLOG_PAGE\blog\src" />
+      <recent name="C:\laragon\www\PERSONAL_BLOG_PAGE\blog" />
+      <recent name="C:\laragon\www\PERSONAL_BLOG_PAGE\blog\public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab81f324-1e01-467c-8440-2e59ffb6acf2" name="Default Changelist" comment="" />
+      <created>1608381576688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608381576688</updated>
+      <workItem from="1608381577805" duration="5200000" />
+      <workItem from="1608484418782" duration="705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608484982904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1608484982904" />
+    <state width="1515" height="204" key="GridCell.Tab.0.bottom" timestamp="1608384233218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1608384233218" />
+    <state width="1515" height="204" key="GridCell.Tab.0.center" timestamp="1608384233218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="204" key="GridCell.Tab.0.center/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1608384233218" />
+    <state width="1515" height="204" key="GridCell.Tab.0.left" timestamp="1608384233218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="204" key="GridCell.Tab.0.left/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1608384233218" />
+    <state width="1515" height="204" key="GridCell.Tab.0.right" timestamp="1608384233218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="204" key="GridCell.Tab.0.right/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1608384233218" />
+  </component>
+</project>
